@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamWithValueList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>20080502</version>
+  <parameterTypes>
+    <ParamType>
+      <typeName>Inventor</typeName>
+      <typeCode>0</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>String</typeName>
+      <typeCode>1</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>Boolean</typeName>
+      <typeCode>2</typeCode>
+    </ParamType>
+  </parameterTypes>
+  <parameters>
+    <ParamWithValue>
+      <name>a2MajorDiameterMax</name>
+      <typeCode>in</typeCode>
+      <value>1.6232 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2MajorDiameterMin</name>
+      <typeCode>in</typeCode>
+      <value>1.6118 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2PitchDiameterMax</name>
+      <typeCode>in</typeCode>
+      <value>1.5691 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2PitchDiamterMin</name>
+      <typeCode>in</typeCode>
+      <value>1.5632 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2MinorDiameterMax</name>
+      <typeCode>in</typeCode>
+      <value>1.5240 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2MinorDiameterMin</name>
+      <typeCode>in</typeCode>
+      <value>1.5035 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>ThreadsPerInch</name>
+      <typeCode>ul</typeCode>
+      <value>12 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2CrestFlatMax</name>
+      <typeCode>in</typeCode>
+      <value>0.0170 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2CrestFlatMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0070 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2RootFlatMax</name>
+      <typeCode>in</typeCode>
+      <value>0.0153 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2RootFlatMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0104 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2RootRadiusMax</name>
+      <typeCode>in</typeCode>
+      <value>0.0088 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2RootRadiusMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0060 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2ThreadDepthMax</name>
+      <typeCode>in</typeCode>
+      <value>0.0599 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2ThreadDepthMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0439 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>pitch</name>
+      <typeCode>in</typeCode>
+      <value>1 in / ThreadsPerInch</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2MajorDiameterMax</name>
+      <typeCode>in</typeCode>
+      <value>1.6447 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2MajorDiameterMin</name>
+      <typeCode>in</typeCode>
+      <value>1.6250 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2PitchDiameterMax</name>
+      <typeCode>in</typeCode>
+      <value>1.5786 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2PitchDiameterMin</name>
+      <typeCode>in</typeCode>
+      <value>1.5709 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2MinorDiameterMax</name>
+      <typeCode>in</typeCode>
+      <value>1.5528 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2MinorDiameterMin</name>
+      <typeCode>in</typeCode>
+      <value>1.5348 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2CrestFlatMax</name>
+      <typeCode>in</typeCode>
+      <value>0.313 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2CrestFlatMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0164 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2RootFlatMax</name>
+      <typeCode>in</typeCode>
+      <value>0.0104 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2RootFlatMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0035 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2RootRadiusMax</name>
+      <typeCode>in</typeCode>
+      <value>0.0060 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2RootRadiusMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0030 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2ThreadDepthMax</name>
+      <typeCode>in</typeCode>
+      <value>0.0550 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2ThreadDepthMin</name>
+      <typeCode>in</typeCode>
+      <value>0.0361 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d4</name>
+      <typeCode>in</typeCode>
+      <value>nutOutsideDiameter</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d5</name>
+      <typeCode>in</typeCode>
+      <value>b2MinorDiameterMax</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d6</name>
+      <typeCode>in</typeCode>
+      <value>1 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d7</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2MajorDiameter</name>
+      <typeCode>in</typeCode>
+      <value>( b2MajorDiameterMax + b2MajorDiameterMin ) / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2MinorDiameter</name>
+      <typeCode>in</typeCode>
+      <value>( b2MinorDiameterMax + b2MinorDiameterMin ) / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>b2RootRadiusAvg</name>
+      <typeCode>in</typeCode>
+      <value>( b2RootRadiusMax + b2RootRadiusMin ) / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2MajorDiameter</name>
+      <typeCode>in</typeCode>
+      <value>( a2MajorDiameterMax + a2MajorDiameterMin ) / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2MinorDiameter</name>
+      <typeCode>in</typeCode>
+      <value>( a2MinorDiameterMax + a2MinorDiameterMin ) / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>a2RootRadiusAvg</name>
+      <typeCode>in</typeCode>
+      <value>( a2RootRadiusMax + a2RootRadiusMin ) / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d33</name>
+      <typeCode>deg</typeCode>
+      <value>60 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d35</name>
+      <typeCode>in</typeCode>
+      <value>b2RootRadiusAvg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d36</name>
+      <typeCode>in</typeCode>
+      <value>b2MajorDiameterMax / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d37</name>
+      <typeCode>in</typeCode>
+      <value>pitch</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d38</name>
+      <typeCode>in</typeCode>
+      <value>pitch</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d39</name>
+      <typeCode>in</typeCode>
+      <value>cuttingLengthOfNut</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d41</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d46</name>
+      <typeCode>in</typeCode>
+      <value>distanceBetweenCenters</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d47</name>
+      <typeCode>in</typeCode>
+      <value>1 in / 4 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d48</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d49</name>
+      <typeCode>in</typeCode>
+      <value>a2MajorDiameterMin</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d50</name>
+      <typeCode>in</typeCode>
+      <value>hexNutSize</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d51</name>
+      <typeCode>in</typeCode>
+      <value>3 in / 4 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d52</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d53</name>
+      <typeCode>deg</typeCode>
+      <value>60 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d54</name>
+      <typeCode>in</typeCode>
+      <value>a2RootRadiusAvg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d56</name>
+      <typeCode>in</typeCode>
+      <value>a2MajorDiameterMin / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d57</name>
+      <typeCode>in</typeCode>
+      <value>a2MinorDiameterMin / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d58</name>
+      <typeCode>in</typeCode>
+      <value>pitch</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d59</name>
+      <typeCode>in</typeCode>
+      <value>0.75 in + pitch</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d61</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d66</name>
+      <typeCode>in</typeCode>
+      <value>pitch</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d68</name>
+      <typeCode>in</typeCode>
+      <value>0.1 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d69</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>nutOutsideDiameter</name>
+      <typeCode>in</typeCode>
+      <value>2 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d70</name>
+      <typeCode>in</typeCode>
+      <value>nutOutsideDiameter / 2 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d71</name>
+      <typeCode>in</typeCode>
+      <value>0.1 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d73</name>
+      <typeCode>in</typeCode>
+      <value>hexNutSize</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d74</name>
+      <typeCode>in</typeCode>
+      <value>hexNutHeight</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d75</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d76</name>
+      <typeCode>in</typeCode>
+      <value>3 in / 4 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>d77</name>
+      <typeCode>deg</typeCode>
+      <value>0.00 deg</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>cuttingLengthOfNut</name>
+      <typeCode>in</typeCode>
+      <value>1 in + ( 2 ul * pitch )</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>heightOfNut</name>
+      <typeCode>in</typeCode>
+      <value>1.0 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hexNutSize</name>
+      <typeCode>in</typeCode>
+      <value>2.0 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>hexNutHeight</name>
+      <typeCode>in</typeCode>
+      <value>1 in / 4 ul</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>distanceBetweenCenters</name>
+      <typeCode>in</typeCode>
+      <value>2.5 in</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+  </parameters>
+</ParamWithValueList>
